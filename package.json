@@ -4,7 +4,8 @@
   "description": "Extention for Flynn website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=developement webpack --mode development --config webpack.js --watch"
   },
   "author": "",
   "license": "ISC",
