@@ -8,6 +8,7 @@ const config = {
   devtool: "cheap-module-source-map",
   entry: {
     app: path.join(__dirname, "./static/index.js"),
+    app: path.join(__dirname, "./static/background.js"),
   },
   output: {
     path: path.resolve(__dirname, "./build"),
