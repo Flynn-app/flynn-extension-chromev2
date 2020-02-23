@@ -1,0 +1,22 @@
+{
+  "name": "Flynn",
+  "version": "2.0",
+  "description": "Flynn L'application qui lit vos articles à haute voix",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Flynn Chrome Extension",
+    "default_popup": "index.html"
+  }
+}
