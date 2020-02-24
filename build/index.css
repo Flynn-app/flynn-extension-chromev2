@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
-
+html {
+  width: 100px;
+  height: 15px;
+}
 body {
-  min-width: 200;
-  min-height: 50;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-family: 'Open Sans';
   background: #5864F6;
+}
+
+p {
+  margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
 }
 
 .loader {
@@ -22,14 +28,14 @@ body {
 
 #save {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 14px;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 
 #wave {
-  height: 70px;
+  height: 25px;
   width: 70px;
   fill: #fff;
 }
@@ -95,6 +101,41 @@ body {
           animation: pulse 1s infinite;
   -webkit-animation-delay: 1.35s;
           animation-delay: 1.35s;
+}
+
+#Line_10 {
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#Line_11 {
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+  -webkit-animation-delay: 1.65s;
+          animation-delay: 1.65s;
+}
+
+#Line_12 {
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+  -webkit-animation-delay: 1.70s;
+          animation-delay: 1.70s;
+}
+
+#Line_13 {
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+  -webkit-animation-delay: 1.80s;
+          animation-delay: 1.80s;
+}
+
+#Line_14 {
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+  -webkit-animation-delay: 1.90s;
+          animation-delay: 1.90s;
 }
 
 @-webkit-keyframes pulse {
