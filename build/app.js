@@ -53611,7 +53611,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _postlight_mercury_parser__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_postlight_mercury_parser__WEBPACK_IMPORTED_MODULE_0__);
 
 var ENV = {
-  SERVER_ADDRESS: 'http://127.0.0.1:3000'
+  SERVER_ADDRESS: 'http://www.flynn-app.fr'
 };
 chrome.tabs.query({
   'active': true,

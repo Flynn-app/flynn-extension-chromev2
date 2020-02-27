@@ -2,7 +2,7 @@ import Mercury from '@postlight/mercury-parser';
 
 
 const ENV = {
-  SERVER_ADDRESS: 'http://127.0.0.1:3000',
+  SERVER_ADDRESS: 'http://www.flynn-app.fr',
 }
 
 chrome.tabs.query({'active': true, 'windowId': chrome.windows.WINDOW_ID_CURRENT},
